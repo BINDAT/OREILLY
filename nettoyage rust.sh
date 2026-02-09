@@ -1,0 +1,1 @@
+cargo clean # Nettoie les fichiers de compilation générés par Cargo, supprimant les artefacts de build et les dépendances compilées pour libérer de l'espace disque et préparer le projet pour une nouvelle compilation propre

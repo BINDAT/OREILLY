@@ -1,0 +1,1 @@
+cargo run # Compile et exécute le projet Rust dans le répertoire actuel, affichant "Hello, world!" dans la console

@@ -1,0 +1,1 @@
+cargo new --bin hello --vcs-none

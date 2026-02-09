@@ -1,0 +1,1 @@
+cargo new --bin hello # Crée un nouveau projet Rust nommé "hello" avec un binaire
