@@ -1,6 +1,6 @@
 [package]
-name = "hello"
-version = "0.1.0"
-edition = "2024"
+name = "hello" # Nom du projet
+version = "0.1.0" # Version du projet
+edition = "2024" # Edition de Rust utilisée pour ce projet
 
-[dependencies]
+[dependencies] # Pas de dépendances pour ce projet
