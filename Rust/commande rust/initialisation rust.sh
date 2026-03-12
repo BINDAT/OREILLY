@@ -1,0 +1,1 @@
+cargo init #Initialise un nouveau projet Rust dans le répertoire courant, créant les fichiers nécessaires pour commencer à développer une application Rust, y compris un fichier Cargo.toml pour gérer les dépendances et un fichier main.rs pour le code source principal.
