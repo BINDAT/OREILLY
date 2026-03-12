@@ -1,7 +1,0 @@
-[package]
-name = "exercices_rust" # Le nom de votre projet
-version = "0.1.0" # La version de votre projet
-edition = "2021" # L'édition de Rust que vous utilisez
-
-[dependencies]
-colored = "3.0"  # On ajoute cette ligne ici pour inclure la bibliothèque colored dans notre projet
