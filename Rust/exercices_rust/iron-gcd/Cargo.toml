@@ -1,0 +1,11 @@
+[package]
+name = "iron-gcd"
+version = "0.1.0"
+edition = "2024"
+authors = ["Your Name <your.email@example.com>"]
+
+[dependencies]
+iron = "0.6"
+mime = "0.3"
+router = "0.6"
+urlencoded = "0.6"
