@@ -5,14 +5,14 @@ use iron::prelude::*;
 use iron::status;
 
 fn main() {
-    println("Serveur en http://localhost:3000...");
+    println!("Serveur en http://localhost:3000...");
     Iron::new(get_form).http("localhost:3000").unwrap();
 }
 
 fn get_form(_request: &mut Request) -> IronResult<Responses> {
     let mut response = Response::new();
 
-    response.set_mut(statut::Ok);
+    response.set_mut(status::Ok);
     response.set_mut(mime!(Text/Html; Charset=Utf8));
     response.set_mut(r#"
         <title>Calculatrice de PGCD</title>
