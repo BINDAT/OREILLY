@@ -25,3 +25,5 @@ fn get_form(_request: &mut Request) -> IronResult<Response> {
 
         Ok(response) // retour de la réponse HTTP
 }
+extern crate iron; // externe crate pour le serveur web
+use router::Router; // pour le routage des requêtes
